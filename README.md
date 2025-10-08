@@ -31,6 +31,12 @@
 
 ## <a name="comparison">5. Comparing Three Vendors: Palo Alto, Fortinet, SonicWall</a>
 
+*Palo Alto GlobalProtect* VPNs may be a strong option for large organizations/enterprises with technical expertise, a desire for granular app-level controls over traffic and policies, and are looking to integrate their VPN solutions with other Palo Alto networking products (such as Palo Alto Next-Generation Firewalls).
+
+*Fortinet FortiClient VPN/EMS* may be a good choice for organizations that already use Fortinet's Security Fabric, face budget restrictions, and/or need to unite their endpoint security and remote access solutions with a centrally-managed interface.
+
+*SonicWall SMA VPNs* offer physical and virtual deployment capabilities, multitenancy, endpoint management, app-based remote access control, and support for a diversity of devices.
+
 <hr />
 
 ## <a name="supplemental">6. Supplemental Resources</a>
