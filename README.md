@@ -34,3 +34,7 @@
 <hr />
 
 ## <a name="supplemental">6. Supplemental Resources</a>
+
+* *[Palo Alto GlobalProtect Official Webpage](https://www.paloaltonetworks.com/sase/globalprotect)*
+* *[Official Fortinet Product Downloads Page](https://www.fortinet.com/support/product-downloads)*
+* *[SonicWall SMAs Official Webpage](https://www.sonicwall.com/products/remote-access)*
