@@ -37,6 +37,16 @@
 
 *SonicWall SMA VPNs* offer physical and virtual deployment capabilities, multitenancy, endpoint management, app-based remote access control, and support for a diversity of devices.
 
+| *Consideration* | [*Palo Alto GlobalProtect*](https://www.paloaltonetworks.com/sase/globalprotect) | [*Fortinet FortiClient VPN/EMS*](https://www.fortinet.com/support/product-downloads) | [*SonicWall SMA VPN*](https://www.sonicwall.com/products/remote-access) |
+| :---: | :---: | :----: | :----: |
+| Target Use Cases | | | |
+| VPN Access/Connection Type | | | |
+| Management Approach | | | |
+| Endpoint Security Approach | | | |
+| 24/7 Access | | | |
+| Zero-Trust Principles | | | |
+| Learning Curve | | | |
+
 <hr />
 
 ## <a name="supplemental">6. Supplemental Resources</a>
