@@ -27,6 +27,15 @@
 
 ## <a name="sonicwall">4. SonicWall SMA VPNs</a>
 
+*SonicWall Secure Mobile Access (SMA) VPNs* enable remote access, with a common use case of employees accessing corporate organizational resources 24/7 from a variety of devices by using a unified gateway approach. They allow for a variety of deployment configurations, including physical and cloud devices (including public and private clouds), tool-provided access (e.g., Connect Tunnel, NetExtender), and clientless web-based access.
+
+*How They Operate:*
+
+* *Deployment:* As a physical or virtual appliance, or behind a corporately-managed firewall.
+* *Connection:* Either client-based (via VPN clients such as Connect Tunnel and NetExtender) or clientless (through a web portal, using HTML remote desktop for app-based access control).
+* *Access Control:* Before authorization, users are authenticated and devices must be evaluated as compliant.
+* *Traffic Tunneling:* Using secure connections (providing threat protection) to corporate networks.
+
 <hr />
 
 ## <a name="comparison">5. Comparing Three Vendors: Palo Alto, Fortinet, SonicWall</a>
@@ -39,7 +48,7 @@
 
 | *Consideration* | [*Palo Alto GlobalProtect*](https://www.paloaltonetworks.com/sase/globalprotect) | [*Fortinet FortiClient VPN/EMS*](https://www.fortinet.com/support/product-downloads) | [*SonicWall SMA VPN*](https://www.sonicwall.com/products/remote-access) |
 | :---: | :---: | :----: | :----: |
-| **Deployment/Configurations** | On-Premises (using Palo Alto NGFWs). Licensing fees for mobile support. | Varied possible configurations. No licensing fees for default VPN package. | Virtual or physical. Virtual can be through private or public clouds (e.g., AWS, Azure, VMWare). |
+| **Deployment/Configurations** | On-Premises (using Palo Alto NGFWs). Licensing fees for mobile support. | Varied possible configurations. No licensing fees for default VPN package. | Virtual or physical. Virtual can be through private or public clouds (e.g., AWS, Azure). |
 | **VPN Access** | Supports secure remote access connections to corporate networks by using client-based apps. | SSL VPN and client-based IPsec connections are both supported, with the freely available VPN app allowing for basic connectivity. | Multiple connection options natively provided: Global VPN Client (via IPsec), Mobile Connect, and NetExtender (using an SSL thin-client). |
 | **Management Approach** | Using Palo Alto NGFWs, with the GlobalProtect portal allowing endpoint configurations. | Either using FortiGate firewalls or the FortiClient EMS (for complex configurations). | SMA allows for virtual and physical device deployments and a conveniently centralized management mechanism. |
 | **Endpoint Security Approach** | Primarily VPN-based, with alternative security available for mobile clients. | Both VPN and other mechanisms (e.g., app firewalls, anti-virus, web filtering), with the free version being just VPN-based. | Prior to network access being secured, Endpoint Control (EPC) technology evaluates device compliance and security posture. |
