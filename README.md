@@ -23,6 +23,19 @@
 
 ## <a name="fortinet">3. Fortinet FortiClient VPN and EMS</a>
 
+*FortiClient VPN* provides a FortiGate VPN gateway that can be used for secure, remote access connections. A simplified, free VPN (with fundamental SSL VPN and IPSec VPN functionality) is available from Fortinet.
+
+More complex VPN controls are also available, although they must be paid for: *FortiClient EMS* (Endpoint Management Server) allows for the centralized, administrative management and access control of VPNs, security tools, and other vital features of a network's FortiClient agent devices. Integrations with other Fortinet Security Fabric solutions (e.g., FortiAnalyzer, FortiGate), the monitoring of quarantined data, and the availability of advanced, customizable features are some of EMS's core benefits, which are detailed below.
+
+| Benefit | Explanation |
+| :-----: | :-----: |
+| Centralized Management | Serves as a unified platform for deploying and managing FortiClient agents for all network devices (instead of individual endpoint installs/maintenance). |
+| Example Features | AutoConnect, Always Up (providing automatic, 24/7 VPN connections). |
+| Feature Filtering | 'Feature Select' option for disabling unwanted features (that may also clutter the interface). |
+| Quarantined Data Controls | Quarantined data can be viewed and managed (e.g., potentially reallowed) from the FortiSandbox tool. |
+| Security Integration | Can integrate with Security Fabric solutions (e.g., FortiAnalyzer, FortiGate) for endpoint security monitoring and dynamic security policy enforcement. |
+| Security Posture | Can conduct endpoint security posture checks (e.g., checking OS editions, confirming anti-virus/anti-malware software is maintained) before providing access. |
+
 <hr />
 
 ## <a name="sonicwall">4. SonicWall SMA VPNs</a>
